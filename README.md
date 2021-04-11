@@ -10,7 +10,7 @@ Megatron was build by the team of ineuron.ai where I have worked upon a task of 
 
 Building a Megatron like ChatBot requires a huge amount of data and various state of the art components.So, the first task is to get a large data,The dataset was creatd by scaraping the queries and answers asked by students over a year to their Skype support team, the dataset include of 20k sentences which were transformed and added to CSV and json format.
 
-I have tried many State of the art language models from BERT-large to DialoGPT to RoBERTa but got an awesome results over Distilled BERT Models with ELMO embeddings.The model then trained over the 20k queries after preprocessing then adding tokens like <SEP>, <START>, <END> and <EOS>.
+I have tried many State of the art language models from BERT-large to DialoGPT to RoBERTa but got an awesome results over Distilled BERT Models with ELMO embeddings.The model then trained over the 20k queries after preprocessing then adding tokens like [SEP], [START], [END] and [EOS].
   
 The Architecture of MegatronBot: -
 
